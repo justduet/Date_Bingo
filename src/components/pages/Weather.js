@@ -40,8 +40,6 @@ const TomorrowIOWeatherWidget = () => {
         >
           <a
             href="https://www.tomorrow.io/weather-api/"
-            rel="nofollow noopener noreferrer"
-            target="_blank"
             style={{
               position: "absolute",
               bottom: 0,
