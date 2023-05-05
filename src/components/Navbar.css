@@ -36,13 +36,13 @@
   }
 
   .menu-icon {
-    width: 45px;
+    width: 30px;
     height: auto;
     transition: all 0.3s ease-out;
   }
   
   .close-icon {
-    width: 30px;
+    width: 25px;
     height: auto;
     transition: all 0.3s ease-out;
     left: 80%; 
@@ -75,7 +75,7 @@
   /* Defined styles for the .open class that gets added when menu is open */
   .menu.open {
     background: #FD95B0;
-    top: 10%;
+    top: 2vh;
     opacity: 1;
     margin:5px;
     padding-bottom: 0px;
@@ -90,7 +90,6 @@
   }
 
   .nav-links{
-    margin: 2rem auto;
     border-radius: 4px;
     width: 90%;
     text-decoration: none;
