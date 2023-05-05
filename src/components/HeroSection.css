@@ -14,7 +14,7 @@
 }
   .img{
     position: absolute;
-    top: -101px;
+    top: -10vh;
     height: 120vh;
     width: 100vw;
     filter: brightness(97%)
