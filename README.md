@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+### Date Bingo
+Date Bingo creates a fun and engaging way to discover new date ideas with your partner and create awesome memories. It was created for couples or friends that are looking to have a good time in their relationship and improve closeness with their partners. Date Bingo was originally inspired by scratch-off date books, but it's completely free! Some features of Date Bingo include: a weather API so you can plan your activities around the sun, a cute and interactive bingo card, a photo gallery where you can upload pictures of your dates, and a pink theme that gives it a modern and whimsical feel. Date Bingo utilizes firebase's storage and database features in order to upload images. The site also uses a sing-up/login system created with firebase in order to customize each users photo gallery (in the future). Please refer to the Privacy Policy with any queries and feel free to contact me as well. Date Bingo is a work in progress and contributions are encouraged!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+###Getting Started
+To play Date Bingo, simply navigate to the website and either create an account, or explore anonymously. At the moment your photo gallery may not be saved, but eventually once you are signed in your photos will automatically be available.
 
-In the project directory, you can run:
+###Technologies Used:
+React.js
+Node.js
+Firebase
+Material UI
 
-### `npm start`
+###Contributing
+We welcome contributions from the community! If you're interested in contributing to Date Bingo, please submit a pull request or contact us directly.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+###License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###Citations:
+- The layout, css, and routing on this app is based on https://github.com/briancodex/react-website-v1
+- The Photo Gallery component is adapted from https://github.com/iamshaunjp/firegram
+- The Weather Widget API is powered by the https://www.tomorrow.io/weather-api/
+- The login form is built on code from Firebase
+- Much of this code was modified with the aid of ChatGPT 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Netlify deployment link: https://zippy-dragon-36cb2d.netlify.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0f54db7e-06eb-4853-a451-b4c4dfec6743/deploy-status)](https://app.netlify.com/sites/zippy-dragon-36cb2d/deploys)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
