@@ -7,6 +7,7 @@ import HowTo from './components/pages/HowTo';
 import Login from './components/pages/Login';
 import Signup from './components/pages/Signup';
 import Gallery from './components/pages/Gallery';
+import PrivacyPolicy from './components/pages/PrivacyPolicy';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/signup' element={<Signup/>}/>
           <Route path='/gallery' element={<Gallery/>}/>
+          <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
         </Routes>
       </Router>
     </>

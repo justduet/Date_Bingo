@@ -20,7 +20,7 @@ const Navbar = () => {
           <img
             src="/logo.png"
             alt="date bingo logo"
-            style={{ width: "250px", height: "auto" }}
+            style={{ width: "200px", height: "auto" }}
           />
         </Link>
         <div
@@ -67,6 +67,11 @@ const Navbar = () => {
             <li className="nav-item">
               <Link to="/logout" className="nav-links" onClick={closeMenu}>
                 Logout
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/privacy-policy" className="nav-links" onClick={closeMenu}>
+                Privacy Policy
               </Link>
             </li>
           </ul>

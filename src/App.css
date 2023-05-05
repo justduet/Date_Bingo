@@ -241,7 +241,7 @@
 
 .weather-b{
   position: absolute;
-  top:10%;
+  top:10vh;
   left:1%;
   border-radius: 1px;
   color: white;
@@ -448,6 +448,7 @@
   padding: 0;
 }
 
+/*ImageGrid.js*/
 .img-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
