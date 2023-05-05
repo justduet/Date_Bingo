@@ -1,0 +1,66 @@
+
+.hero-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.Button{
+    position: relative;
+    top: 10%;
+    left: 62%;
+}
+  .img{
+    position: absolute;
+    top: -101px;
+    height: 120vh;
+    width: 100vw;
+    filter: brightness(97%)
+    contrast(90%)
+    hue-rotate(345deg)
+    saturate(175%); 
+  }
+  .text-overlay{
+      position: absolute;
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+  }
+    .text-overlay > h3{
+        position: absolute;
+        color: #ea5a4c;
+        text-indent: -5px;
+        text-shadow: -1.5px 0 0 #ffffff;
+        font-weight:bolder;
+        letter-spacing: 1px;  
+        top: 48%;
+        left: 25%;
+        font-size: 3vw;
+    }
+
+    .text-overlay > h4{
+        position: absolute;
+        color: #ea5a4c;
+        text-shadow: -1.5px 0 0px #ffffff;
+        text-indent: -5px;
+        font-weight: bolder;
+        top:63%;
+        left: 39%;
+        font-size: 3vw;
+      
+    }
+
+    .text-overlay > h2{
+        color: #e76d62;
+        letter-spacing: 5px;
+        text-indent: -5px;
+        text-shadow: -5px 0 0 white;
+        font-size: 5vw;
+        font-weight: bold;
+        position: absolute;
+        top: 35%;
+        left: 52%;
+    }
+
