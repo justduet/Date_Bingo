@@ -36,7 +36,7 @@ const TomorrowIOWeatherWidget = () => {
           data-unit-system="METRIC"
           data-skin="light"
           data-widget-type="summary"
-          style={{ paddingBottom: "22px"}}
+          style={{ paddingBottom: "22px", width: "20%", height: "20%" }}
         >
           <a
             href="https://www.tomorrow.io/weather-api/"

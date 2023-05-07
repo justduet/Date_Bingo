@@ -240,7 +240,7 @@
 }
 
 .weather-b{
-  position: absolute;
+  position: fixed;
   top:12vh;
   left:1%;
   border-radius: 1px;
@@ -265,7 +265,7 @@
   opacity: 85%;
   margin: 2px;
   position: absolute;
-  top: 30vh;
+  top: 20vh;
   left: .75%;  
 }
 .bingo-background{
